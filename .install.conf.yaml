@@ -1,8 +1,8 @@
 - clean: ['~', '~/.config']
 
 - link:
-   ~/.dotfiles: ''
-   ~/.dotfiles: ''
+   ~/.suit: ''
+   ~/.zshrc: 'zsh/zshrc'
 
 - shell:
   - ~/.dotfiles/bootstrap/init.sh
