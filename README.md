@@ -1,4 +1,4 @@
-Dotfiles Template
+Suit (My Dotfiles)
 =================
 
 This is my dotfile repository based on [Dotbot][dotbot].

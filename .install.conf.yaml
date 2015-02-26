@@ -1,3 +1,8 @@
-- clean: []
-- link: {}
-- shell: []
+- clean: ['~', '~/.config']
+
+- link:
+   ~/.dotfiles: ''
+   ~/.dotfiles: ''
+
+- shell:
+  - ~/.dotfiles/bootstrap/init.sh
