@@ -3,6 +3,8 @@
 - link:
    ~/.suit: ''
    ~/.zshrc: 'zsh/zshrc'
+   ~/.gitconfig: 'git/.gitconfig'
+   ~/.gitignore_global: 'git/.gitignore_global'
 
 - shell:
-  - ~/.dotfiles/bootstrap/init.sh
+  - ~/.suit/bootstrap/init.sh

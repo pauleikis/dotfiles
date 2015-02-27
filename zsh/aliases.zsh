@@ -13,6 +13,6 @@ alias -g .....='../../../..'
 # Update dotfiles
 function dfu() {
     (
-        cd ~/.suit && git pullff && ./install -q
+        cd ~/.suit && git pull --ff-only && ./install -q
     )
 }

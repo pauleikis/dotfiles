@@ -5,3 +5,5 @@ if [[ "$SHELL" != *zsh ]]
 fi
 
 source ~/.zshrc
+
+exit 0

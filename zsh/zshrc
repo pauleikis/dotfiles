@@ -1,7 +1,7 @@
 
 SUIT_ZSH_HOME=~/.suit/zsh
 
-source $SUIT_ZSH_HOME/plugins/zgen/zgen.zsh
+# source $SUIT_ZSH_HOME/plugins/zgen/zgen.zsh
 
 source $SUIT_ZSH_HOME/theme/pure/pure.zsh
 

@@ -1,6 +1,9 @@
 #cd without cd
 setopt autocd
 
+#load completion
+autoload -U compinit
+compinit -d "~/.suit/zcompdump"
 #completion menu
 zstyle ':completion:*' menu select
 # fuzzy matching of completions for when you mistype them
