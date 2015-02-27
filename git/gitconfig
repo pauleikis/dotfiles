@@ -23,3 +23,5 @@
 [user]
 	name = pauleikis
 	email = tsiongas@gmail.com
+[include]
+  path = .gitconfig_local
