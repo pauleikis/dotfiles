@@ -7,3 +7,6 @@
 [submodule "zsh/theme/pure"]
 	path = zsh/theme/pure
 	url = https://github.com/sindresorhus/pure.git
+[submodule "zsh/plugins/zgen"]
+	path = zsh/plugins/zgen
+	url = git@github.com:tarjoilija/zgen.git

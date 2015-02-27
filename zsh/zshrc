@@ -1,6 +1,11 @@
 
-SUIT_HOME=~/.suit
+SUIT_ZSH_HOME=~/.suit/zsh
 
-source $SUIT_HOME/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $SUIT_ZSH_HOME/plugins/zgen/zgen.zsh
 
-source $SUIT_HOME/zsh/theme/pure/pure.zsh
+source $SUIT_ZSH_HOME/theme/pure/pure.zsh
+
+source $SUIT_ZSH_HOME/settings.zsh
+source $SUIT_ZSH_HOME/aliases.zsh
+
+source $SUIT_ZSH_HOME/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
