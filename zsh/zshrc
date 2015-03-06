@@ -1,3 +1,4 @@
+export JAVA_HOME=$(/usr/libexec/java_home)
 
 SUIT_ZSH_HOME=~/.suit/zsh
 
