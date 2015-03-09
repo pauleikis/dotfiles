@@ -32,3 +32,8 @@ function dfu() {
         cd ~/.suit && git pull --ff-only && ./install -q
     )
 }
+
+# git
+alias gst='git status -sb'
+alias gu='git pull'
+alias gp='git push'
