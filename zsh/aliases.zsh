@@ -6,6 +6,22 @@ alias grep='grep --color'
 alias cp='cp -i'
 alias mv='mv -i'
 
+# Aliases to speed up common tasks
+function p() {
+  head -1 <(ps aux)
+  grep $@ =(ps aux)
+}
+
+# Python
+function a() {
+    OLD=`pwd`
+    cd ~/Tools
+    source python/bin/activate
+    cd $OLD
+}
+alias d='deactivate'
+
+# navigation
 alias -g ...='../..'
 alias -g ....='../../..'
 alias -g .....='../../../..'
