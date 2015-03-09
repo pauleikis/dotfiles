@@ -11,6 +11,7 @@ function p() {
   head -1 <(ps aux)
   grep $@ =(ps aux)
 }
+alias e='env | grep -i '
 
 # Python
 function a() {
