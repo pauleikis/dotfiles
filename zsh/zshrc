@@ -10,3 +10,5 @@ source $SUIT_ZSH_HOME/settings.zsh
 source $SUIT_ZSH_HOME/aliases.zsh
 
 source $SUIT_ZSH_HOME/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+source ~/.zshrc_local
