@@ -58,3 +58,13 @@ if [[ $IS_MAC -eq 1 ]]; then
     # view man pages in Preview
     pman() { ps=`mktemp -t manpageXXXX`.ps ; man -t $@ > "$ps" ; open "$ps" ; }
 fi
+
+function clock () {
+    while sleep 1;
+    do
+        tput sc
+        tput cup 0 $(($(tput cols)-29))
+        date
+        tput rc
+    done &
+}
