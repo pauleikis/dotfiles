@@ -1,5 +1,5 @@
 # Use colors in coreutils utilities output
-alias ls='ls -Al'
+alias ls='ls -Alh'
 alias grep='grep --color'
 alias egrep='egrep --color'
 
