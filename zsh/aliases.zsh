@@ -7,6 +7,9 @@ alias egrep='egrep --color'
 alias cp='cp -i'
 alias mv='mv -i'
 
+alias -g ND='*(/om[1])'
+alias -g NF='*(.om[1])'
+
 # Aliases to speed up common tasks
 function p() {
   head -1 <(ps aux)
