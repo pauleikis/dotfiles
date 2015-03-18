@@ -25,15 +25,11 @@ function a() {
 }
 alias d='deactivate'
 
-# navigation
-alias -g ...='../..'
-alias -g ....='../../..'
-alias -g .....='../../../..'
-
 # git
 alias gst='git status -sb'
 alias gu='git pull'
 alias gp='git push'
+alias ga='git add . -A'
 
 # my dot files
 function dfu() {
@@ -53,11 +49,6 @@ function koma() {
   cd $OLD
   unset OLD
 }
-
-if [[ $IS_MAC -eq 1 ]]; then
-    # view man pages in Preview
-    pman() { ps=`mktemp -t manpageXXXX`.ps ; man -t $@ > "$ps" ; open "$ps" ; }
-fi
 
 function clock () {
     while sleep 1;
