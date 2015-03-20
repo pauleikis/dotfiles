@@ -16,3 +16,5 @@ setopt hist_ignore_space
 setopt hist_verify
 setopt extended_history
 setopt hist_expire_dups_first
+
+setopt extended_glob
