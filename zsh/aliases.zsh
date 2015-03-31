@@ -41,7 +41,10 @@ function dfu() {
     )
 }
 function dot() {
-  atom ~/.suit/zsh/$1.zsh || vim ~/.suit/zsh/$1.zsh || nano ~/.suit/zsh/$1.zsh
+  subl ~/.suit/zsh/$1.zsh ||\
+  atom ~/.suit/zsh/$1.zsh ||\
+  vim ~/.suit/zsh/$1.zsh ||\
+  nano ~/.suit/zsh/$1.zsh
 }
 function koma() {
   OLD=`pwd`
