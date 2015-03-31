@@ -53,6 +53,10 @@ function koma() {
   unset OLD
 }
 
+function k() {
+  kill %$1
+}
+
 function clock () {
     while sleep 1;
     do
