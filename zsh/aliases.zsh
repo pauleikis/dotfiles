@@ -72,7 +72,7 @@ function count () {
     do
         tput sc
         tput cup 0 $(($(tput cols)-10))
-        ls | wc -l
+        echo $(($(ls | wc -l)-1))
         tput rc
     done &
 }
