@@ -33,6 +33,7 @@ alias gst='git status -sb'
 alias gu='git pull'
 alias gp='git push'
 alias ga='git add . -A'
+alias gup='git pull && git push'
 
 # my dot files
 function dfu() {
