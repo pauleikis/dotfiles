@@ -34,6 +34,7 @@ alias gu='git pull'
 alias gp='git push'
 alias ga='git add . -A'
 alias gup='git pull && git push'
+alias gless='git diff --color=always | less -r'
 
 # my dot files
 function dfu() {
