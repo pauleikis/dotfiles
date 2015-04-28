@@ -6,6 +6,8 @@ export HISTSIZE=1048576
 export HISTFILE="$HOME/.zsh_history"
 export SAVEHIST=$HISTSIZE
 
+bindkey '^R' history-incremental-pattern-search-backward
+
 export CLICOLOR=1
 
 unsetopt menu_complete

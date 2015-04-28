@@ -43,10 +43,11 @@ function dfu() {
     )
 }
 function dot() {
-  subl ~/.suit/zsh/$1.zsh ||\
-  atom ~/.suit/zsh/$1.zsh ||\
-  vim ~/.suit/zsh/$1.zsh ||\
-  nano ~/.suit/zsh/$1.zsh
+  file="~/.suit/zsh/$1.zsh"
+  subl $file ||\
+  atom $file ||\
+  vim $file ||\
+  nano $file
 }
 function koma() {
   OLD=`pwd`
@@ -56,6 +57,13 @@ function koma() {
   gp
   cd $OLD
   unset OLD
+}
+function zrc() {
+  file="~/.zshrc_local"
+  subl $file ||\
+  atom $file ||\
+  vim $file ||\
+  nano $file
 }
 
 function k() {
