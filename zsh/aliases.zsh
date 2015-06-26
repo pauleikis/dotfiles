@@ -89,3 +89,9 @@ function count () {
         tput rc
     done &
 }
+
+function atom-pipe () {
+	OUT="$(mktemp -t atom)"
+	cat > $OUT
+	atom $OUT
+}

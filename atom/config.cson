@@ -3,3 +3,6 @@
     userId: "198c42d1-e2d5-c7e7-4da9-cb9d80d344ae"
   welcome:
     showOnStartup: false
+  core: {}
+  editor:
+    invisibles: {}
