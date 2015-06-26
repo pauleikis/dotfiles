@@ -2,6 +2,7 @@
 	ui = auto
 [core]
 	excludesfile = /Users/psileikis/.gitignore_global
+	editor = atom --wait
 [alias]
 	aa = add --all
 [push]
