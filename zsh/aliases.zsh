@@ -35,6 +35,7 @@ alias gp='git push'
 alias ga='git add . -A'
 alias gup='git pull && git push'
 alias gless='git diff --color=always | less -r'
+alias grel='git for-each-ref --count=5 --sort=-committerdate refs/remotes/origin/ --format="%(authordate:short)%09%(objectname:short)%09%1B[0;33m%(refname:short)%1B[m%09"'
 
 # my dot files
 function dfu() {
