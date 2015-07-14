@@ -96,3 +96,7 @@ function atom-pipe () {
 	cat > $OUT
 	atom $OUT
 }
+
+function perf () {
+  curl -o /dev/null  -s -w "%{time_connect} + %{time_starttransfer} = %{time_total}\n" "$1"
+}
