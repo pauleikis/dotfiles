@@ -9,6 +9,7 @@ alias mv='mv -i'
 
 alias -g ND='*(/om[1])'
 alias -g NF='*(.om[1])'
+alias -g NF2='*(.om[2])'
 
 # Aliases to speed up common tasks
 function p() {
