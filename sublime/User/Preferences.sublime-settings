@@ -1,8 +1,9 @@
 {
-	"color_scheme": "Packages/Colorsublime - Themes/Afterglow.tmTheme",
+	"color_scheme": "Packages/Colorsublime - Themes/Solarized-light.tmTheme",
 	"ignored_packages":
 	[
 		"Vintage"
 	],
-	"translate_tabs_to_spaces": true
+	"translate_tabs_to_spaces": true,
+    "auto_match_enabled": false
 }
