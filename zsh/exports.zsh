@@ -1,3 +1,6 @@
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+
 [[ -x /usr/libexec/java_home ]] && export JAVA_HOME=$(/usr/libexec/java_home)
 
 # Add GHC 7.10.2 to the PATH, via https://ghcformacosx.github.io/
