@@ -28,6 +28,16 @@ function a() {
     unset OLD
 }
 alias d='deactivate'
+alias s='source .venv/bin/activate'
+function i() {
+  pyvenv .venv && \
+  source .venv/bin/activate && \
+  pip install --upgrade pip
+}
+function u() {
+  deactivate
+  rm -r .venv
+}
 
 # git
 alias gst='git status -sb'
@@ -35,6 +45,7 @@ alias gu='git pull'
 alias gp='git push'
 alias ga='git add . -A'
 alias gup='git pull && git push'
+alias gcd='cd `git rev-parse --show-toplevel`'
 alias git-prune='git branch --merged master | grep -v "^* master" | xargs git branch -d'
 alias git-prune-echo='git branch --merged master | grep -v "^* master" | xargs echo'
 alias gless='git diff --color=always | less -r'
