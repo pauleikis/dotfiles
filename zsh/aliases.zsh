@@ -30,7 +30,7 @@ function a() {
 alias d='deactivate'
 alias s='source .venv/bin/activate'
 function i() {
-  pyvenv .venv && \
+  python3 -m venv .venv && \
   source .venv/bin/activate && \
   pip install --upgrade pip
 }
