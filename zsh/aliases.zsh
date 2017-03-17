@@ -18,6 +18,7 @@ function p() {
 }
 alias e='env | egrep -i'
 alias ip='curl icanhazip.com'
+alias nb='a && jupyter notebook && d'
 
 # Python
 function a() {
