@@ -58,7 +58,8 @@ function mp() {
   git merge $1 &&\
   git pull &&\
   git push &&\
-  git checkout $1;
+  git checkout $1 &&\
+  git rebase master;
 }
 
 #httpie
