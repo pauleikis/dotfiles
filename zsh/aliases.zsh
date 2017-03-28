@@ -52,6 +52,15 @@ alias git-prune-echo='git branch --merged master | grep -v "^* master" | xargs e
 alias gless='git diff --color=always | less -r'
 alias grel='git for-each-ref --count=5 --sort=-committerdate refs/remotes/origin/ --format="%(authordate:short)%09%(objectname:short)%09%1B[0;33m%(refname:short)%1B[m%09"'
 
+function mp() {
+  git rebase master &&\
+  git checkout master &&\
+  git merge $1 &&\
+  git pull &&\
+  git push &&\
+  git checkout $1;
+}
+
 #httpie
 alias -g iPhone='"User-Agent:Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/600.1.3 (KHTML, like Gecko) Version/8.0 Mobile/12A4345d Safari/600.1.4"'
 alias -g iPad='"User-Agent:Mozilla/5.0 (iPad; CPU OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A465 Safari/9537.53"'

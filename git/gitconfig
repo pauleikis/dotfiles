@@ -22,8 +22,8 @@
 	compact = "%C(auto)%h %s %C(green)%ar%n %C(auto)%d%n"
 	detail = "%C(auto)%h %s%n  %C(yellow)by %C(blue)%an %C(magenta)<%ae> [%G?] %C(green)%ar%n %C(auto)%d%n"
 [user]
-	name = pauleikis
-	email = tsiongas@gmail.com
+	name = 
+	email = 
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
@@ -34,3 +34,5 @@
 	rebase = true
 [include]
 	path = .gitconfig_local
+[commit]
+	template = /Users/psileikis/.stCommitMsg
