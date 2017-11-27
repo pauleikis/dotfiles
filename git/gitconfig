@@ -2,7 +2,7 @@
 	ui = auto
 [core]
 	excludesfile = /Users/psileikis/.gitignore_global
-	editor = atom --wait
+	editor = subl -n -w
 [alias]
 	aa = add --all
 [push]
@@ -36,3 +36,5 @@
 	path = .gitconfig_local
 [commit]
 	template = /Users/psileikis/.stCommitMsg
+[flake8]
+	strict = true

@@ -33,7 +33,7 @@ alias s='source .venv/bin/activate'
 function i() {
   python3 -m venv .venv && \
   source .venv/bin/activate && \
-  pip install --upgrade pip
+  pip install --upgrade setuptools
 }
 function u() {
   deactivate
