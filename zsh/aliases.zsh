@@ -40,6 +40,8 @@ function u() {
   rm -r .venv
 }
 
+alias fh='git diff "HEAD" | flake8 --diff'
+
 # git
 alias gst='git status -sb'
 alias gu='git pull'
